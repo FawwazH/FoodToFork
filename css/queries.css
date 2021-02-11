@@ -1,0 +1,52 @@
+/*Laptop screen down to 1200*/
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 106rem;
+  }
+}
+
+/*Small tablet to big tablet 768 - 1022 pixels*/
+@media only screen and (max-width: 1023px) {
+  .container {
+    max-width: 93rem;
+    margin: 2rem auto;
+  }
+
+  .recipe__fig {
+    transform: scale(1) translateY(0px);
+  }
+
+  .results__link {
+    padding: 1.5rem 1rem;
+  }
+
+  .recipe__info:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
+/*All phones/tablets smaller than the iPad 481-767 pixels*/
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 29%;
+  }
+
+  .container {
+    /* max-width: 57rem; */
+    margin: 2rem auto;
+    grid-template-columns: 1.1fr 2fr 1.1fr;
+  }
+
+  .header__logo {
+    margin-left: 1rem;
+  }
+
+  .results__pages,
+  .likes__pages {
+    padding: 0 2rem;
+  }
+}
+
+/*These rules will aplly when the width of the device or borwser is less than oer equal to 480 pixels (Width of old iPhones) 0-480 pixles*/
+@media only screen and (max-width: 480px) {
+}
