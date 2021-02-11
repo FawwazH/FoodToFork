@@ -47,6 +47,39 @@
   }
 }
 
-/*These rules will aplly when the width of the device or borwser is less than oer equal to 480 pixels (Width of old iPhones) 0-480 pixles*/
+/*These rules will aplly when the width of the device or borwser is less than oer equal to 480 pixels (Width of old iPhones) 320-480 pixles*/
 @media only screen and (max-width: 480px) {
+  html {
+    font-size: 24%;
+  }
+
+  .container {
+    margin: 0 auto;
+    grid-template-columns: 1.6fr 2fr 1fr;
+  }
+
+  .recipe {
+    width: 122px;
+  }
+
+  .recipe__details {
+    display: flex;
+    align-items: center;
+    padding: 8rem 3rem 3rem 0rem;
+  }
+
+  .recipe__love {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 2rem;
+  }
+
+  .recipe__love svg {
+    height: 1.75rem;
+    width: 2.75rem;
+  }
+
+  .recipe:hover .recipe__info-buttons {
+    display: none;
+  }
 }
