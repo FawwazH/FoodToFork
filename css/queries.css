@@ -2,6 +2,7 @@
 @media only screen and (max-width: 1200px) {
   .container {
     max-width: 106rem;
+    margin: 2rem auto;
   }
 }
 
@@ -32,7 +33,6 @@
   }
 
   .container {
-    /* max-width: 57rem; */
     margin: 2rem auto;
     grid-template-columns: 1.1fr 2fr 1.1fr;
   }
