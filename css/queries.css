@@ -58,6 +58,10 @@
     grid-template-columns: 1.6fr 2fr 1fr;
   }
 
+  .recipe__info-buttons {
+    display: none;
+  }
+
   .recipe {
     width: 122px;
   }
